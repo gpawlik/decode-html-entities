@@ -1,6 +1,6 @@
 {
-  "name": "decode-html-entities",
-  "version": "1.0.0",
+  "name": "decode-html-entities-js",
+  "version": "1.0.1",
   "description": "HTML entities decoder",
   "main": "index.js",
   "scripts": {
