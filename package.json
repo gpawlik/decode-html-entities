@@ -1,0 +1,19 @@
+{
+  "name": "decode-html-entities",
+  "version": "1.0.0",
+  "description": "HTML entities decoder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gpawlik/decode-html-entities.git"
+  },
+  "author": "Grzegorz Pawlik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gpawlik/decode-html-entities/issues"
+  },
+  "homepage": "https://github.com/gpawlik/decode-html-entities#readme"
+}
