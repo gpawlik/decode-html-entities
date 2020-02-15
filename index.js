@@ -1,7 +1,7 @@
 "use strict";
 
 function decodeEntities(encodedString) {
-  var translate_re = /&(nbsp|amp|quot|lt|gt|#39|#039|&#96|&#096|pound|euroo|dollar|cedil|raquo|rdquo|ldquo|epsilon|Epsilon|delta|Delta|phi|Phi|sigma|Sigma|omega|Omega|ograve|Ograve|oacute|Oacute|agrave|Agrave|aacute|Aacute|egrave|Egrave|eacute|Eacute);/g;
+  var translate_re = /&(nbsp|amp|quot|lt|gt|#39|#039|&#96|&#096|pound|euro|dollar|cedil|raquo|rdquo|ldquo|epsilon|Epsilon|delta|Delta|phi|Phi|sigma|Sigma|omega|Omega|ograve|Ograve|oacute|Oacute|agrave|Agrave|aacute|Aacute|egrave|Egrave|eacute|Eacute|aring|Aring|ocirc|Ocirc|atilde|Atilde|ntilde|Ntilde);/g;
   var translate = {
     nbsp: " ",
     amp: "&",
@@ -41,7 +41,15 @@ function decodeEntities(encodedString) {
     egrave: "è",
     Egrave: "È",
     eacute: "é",
-    Eacute: "É"
+    Eacute: "É",
+    aring: "å",
+    Aring: "Å",
+    ocirc: "ô",
+    Ocirc: "Ô",
+    atilde: "ã",
+    Atilde: "Ã",
+    ntilde: "ñ",
+    Ntilde: "Ñ"
   };
   return encodedString
     .replace(translate_re, function(match, entity) {
